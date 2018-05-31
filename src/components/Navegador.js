@@ -8,8 +8,8 @@ import logo from "../assets/img/LOGO.png";
 class Navegador extends Component {
     render() {
         return (
-            <div>
-                <Navbar inverse collapseOnSelect style={{marginTop:"30px"}}>
+            <div style={{backgroundColor:"white"}} className="navegadorFixed">
+                <Navbar inverse collapseOnSelect className="navbar-fixed-top">
                     <Navbar.Header>
                         <Navbar.Brand>
                             <Image src={logo} className="imgLogo"/>
